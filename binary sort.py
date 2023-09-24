@@ -16,7 +16,7 @@ elements=np.array([i*1000 for i in range(1,40)])
 plt.xlabel('list length')
 plt.ylabel('time complexity')
 times=list()
-for i in range(1,40):
+for i in range(1,50):
         start=time.time()
         a=np.random.randint(1000,size=i*1000)
         binary_search_basic(a,1)
